@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(135deg, #4a69bd, #c8c7ff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Form Container */
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.form-container-context {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h2 {
+    color: #4a69bd;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(135deg, #6a89cc, #a29bfe); 
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #546de5, #7f78d2); 
+    border: none;
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #cc6a6a, #fe9b9b); 
+    color: white !important;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background: linear-gradient(135deg, #e55454, #d27878); 
+    color: white !important;
+    border: none;
+}
+
+/* Form */
+.form-group label,
+.form-label {
+    color: #4a4a4a;
+    font-weight: 500;
+}
+
+/* Inputs */
+.form-control {
+    background-color: #f0f4f8;
+    border: 1px solid #d1d9e6;
+    color: #333;
+}
+
+/* Links */
+.text-muted {
+    color: #7e7e7e;
+}
+
+.text-center a {
+    color: #6a89cc;
+}
+
+.text-center a:hover {
+    color: #546de5;
+}
